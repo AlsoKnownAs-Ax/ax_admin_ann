@@ -6,8 +6,6 @@ local Proxy = module("vrp", "lib/Proxy")
 vRP = Proxy.getInterface("vRP")
 vRPclient = Tunnel.getInterface("vRP","ax_admin_ann")
 
-vRPCax = Tunnel.getInterface("ax_admin_ann","ax_admin_ann")
-
 --===============================================--
 
 ch_announce = function (player, choice)
