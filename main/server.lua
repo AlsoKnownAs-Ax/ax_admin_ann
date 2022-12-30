@@ -36,8 +36,11 @@ vRP.registerMenuBuilder({"admin", function(add, data)
     local user_id = vRP.getUserId{data.player}
     if user_id then
         local choices = {}
-        choices["Anunt Admin AX"] = {ch_announce}
-
+        if vRP.isAdmin{user_id} then                --[[ Do not forget to set your permission]]
+            choices["Anunt Admin AX"] = {ch_announce}
+        end
+        
         add(choices)
     end
 end})
+
