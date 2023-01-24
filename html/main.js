@@ -36,6 +36,7 @@ window.addEventListener('message', function(event) {
                 }else{
                     $('.name_container').css("display",'none');
                 }
+                $(".img").attr("src",item.logo);
 
                 break
             case 'open':
