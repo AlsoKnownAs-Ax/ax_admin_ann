@@ -17,7 +17,8 @@ local send_config = function()
         background_color = style.background_color,
         title_color = style.title_color,
         text_color = style.text_color,
-        sender_color = style.sender_color
+        sender_color = style.sender_color,
+        logo = AxConfig.logo
     })
 
 end
