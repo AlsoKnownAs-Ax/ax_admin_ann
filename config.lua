@@ -4,6 +4,7 @@ AxConfig.show_sender = true
 AxConfig.min_msg_lenght = 4
 AxConfig.delay = 5      --// delay to show the announce (in seconds)
 AxConfig.show_time = 15    --// in seconds
+AxConfig.logo = "./assets/logo.png"         --// You can replace it with a link
 
 AxConfig.style = {
     --// rgba or HEX Code \\--
